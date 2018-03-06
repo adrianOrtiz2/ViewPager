@@ -55,12 +55,6 @@
 		4377B0EBB0D9D71671767F5EE0E569C7 /* DynamicSizeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C826323C6CDC4C15F1D1242AC2B5B48 /* DynamicSizeSnapshot.swift */; };
 		45401C2AEEE03606951F0FDFD1119569 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C313C37A5A308DFD4A73609F4865F3 /* World.swift */; };
 		45F183320C688F9978649F30ABE21D09 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E20B73E81D94C93D2BA001D96E1E64 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		47228A5F204F0C7E0042F3F0 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47228A5D204F0C7E0042F3F0 /* Tab.swift */; };
-		47228A60204F0C7E0042F3F0 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47228A5E204F0C7E0042F3F0 /* Page.swift */; };
-		47228A63204F0C860042F3F0 /* MTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47228A61204F0C860042F3F0 /* MTabViewController.swift */; };
-		47228A64204F0C860042F3F0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47228A62204F0C860042F3F0 /* PageViewController.swift */; };
-		47228A66204F0C8F0042F3F0 /* PageViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47228A65204F0C8F0042F3F0 /* PageViewViewModel.swift */; };
-		47228A69204F0C9A0042F3F0 /* TabCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47228A68204F0C990042F3F0 /* TabCellCollectionViewCell.swift */; };
 		483FDA74FEC933E1A53FA25E794A0443 /* XCTestObservationCenter+CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E7D7F94796C8273534EBD4E460E922 /* XCTestObservationCenter+CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48E0D3CCF81FB3961EF2012F8C849CDC /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBC948D55BAFACF392F30C8D27B6F3 /* DSL.swift */; };
 		4C3DFAE29ACE9413551EA84F5C0BA38C /* Pods-ViewPager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC5571BF0538C7AB019C0815EB2A9A4 /* Pods-ViewPager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -275,13 +269,7 @@
 		452ECC8D09E89E1C8EA220CCB4331566 /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
 		46366576ED7BDADEE4A0E7780321A15A /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		4640B78ECE50A3136B595D7765786569 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
-		47228A5D204F0C7E0042F3F0 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
-		47228A5E204F0C7E0042F3F0 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
-		47228A61204F0C860042F3F0 /* MTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTabViewController.swift; sourceTree = "<group>"; };
-		47228A62204F0C860042F3F0 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		47228A65204F0C8F0042F3F0 /* PageViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewViewModel.swift; sourceTree = "<group>"; };
-		47228A67204F0C990042F3F0 /* TabCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCellCollectionViewCell.xib; sourceTree = "<group>"; };
-		47228A68204F0C990042F3F0 /* TabCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		47228A6A204F49000042F3F0 /* ViewPager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewPager; sourceTree = "<group>"; };
 		47E20B73E81D94C93D2BA001D96E1E64 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		486BEA084A74A7D96BBC96B4F7CCF311 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		493FBF9D7E008D211806E9C1642606CB /* ViewPager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewPager-dummy.m"; sourceTree = "<group>"; };
@@ -588,10 +576,7 @@
 		23AE1BE12C84228856AF37D7C1EB8593 /* ViewPager */ = {
 			isa = PBXGroup;
 			children = (
-				47228A5C204F0C690042F3F0 /* Cells */,
-				47228A5B204F0C5C0042F3F0 /* ViewControllers */,
-				47228A5A204F0C570042F3F0 /* ViewModels */,
-				47228A59204F0C510042F3F0 /* Models */,
+				47228A6A204F49000042F3F0 /* ViewPager */,
 				54D36F91CA8AF2A478E9B6CF87921F9E /* Support Files */,
 			);
 			name = ViewPager;
@@ -627,41 +612,6 @@
 				022B021D1697A1B527875D5C550412C0 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		47228A59204F0C510042F3F0 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				47228A5E204F0C7E0042F3F0 /* Page.swift */,
-				47228A5D204F0C7E0042F3F0 /* Tab.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		47228A5A204F0C570042F3F0 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				47228A65204F0C8F0042F3F0 /* PageViewViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		47228A5B204F0C5C0042F3F0 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				47228A61204F0C860042F3F0 /* MTabViewController.swift */,
-				47228A62204F0C860042F3F0 /* PageViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		47228A5C204F0C690042F3F0 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				47228A68204F0C990042F3F0 /* TabCellCollectionViewCell.swift */,
-				47228A67204F0C990042F3F0 /* TabCellCollectionViewCell.xib */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		518AE2F3412A9E20E50A3D7DC7B4C956 /* Nimble-Snapshots */ = {
@@ -1243,13 +1193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47228A69204F0C9A0042F3F0 /* TabCellCollectionViewCell.swift in Sources */,
-				47228A5F204F0C7E0042F3F0 /* Tab.swift in Sources */,
-				47228A63204F0C860042F3F0 /* MTabViewController.swift in Sources */,
-				47228A64204F0C860042F3F0 /* PageViewController.swift in Sources */,
-				47228A60204F0C7E0042F3F0 /* Page.swift in Sources */,
 				1218B7383A97E63ADCDB708A24872148 /* ViewPager-dummy.m in Sources */,
-				47228A66204F0C8F0042F3F0 /* PageViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
