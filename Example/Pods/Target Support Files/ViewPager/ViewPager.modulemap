@@ -1,0 +1,6 @@
+framework module ViewPager {
+  umbrella header "ViewPager-umbrella.h"
+
+  export *
+  module * { export * }
+}

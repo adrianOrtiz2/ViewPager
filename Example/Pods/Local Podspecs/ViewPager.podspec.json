@@ -1,0 +1,22 @@
+{
+  "name": "ViewPager",
+  "version": "0.1.0",
+  "summary": "A short description of ViewPager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/noway20rock@gmail.com/ViewPager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "noway20rock@gmail.com": "adrian.ortiz@amplemind.com"
+  },
+  "source": {
+    "git": "https://github.com/noway20rock@gmail.com/ViewPager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ViewPager/Classes/**/*"
+}
